@@ -113,7 +113,7 @@ async function main() {
               }
             });
 
-            const tierInserts = itemData.tiers.map(t => ({
+            const tierInserts = itemData.tiers.map((t: any) => ({
               itemId: item.id,
               minQty: 1,
               maxQty: 1,
@@ -125,13 +125,13 @@ async function main() {
             // Ubah deskripsi tambahan untuk memperlihatkan label tier krn kita buat satuan
             await prisma.item.update({
               where: { id: item.id },
-              data: { deskripsi: deskripsi + '\n(Varian: ' + itemData.tiers.map(t => t.label + ' - ' + t.rawText).join(', ') + ')' }
+              data: { deskripsi: deskripsi + '\n(Varian: ' + itemData.tiers.map((t: any) => t.label + ' - ' + t.rawText).join(', ') + ')' }
             });
             
           } else {
             // Tipe Satuan/Paket Biasa
             const isComplex = itemData.isComplex || (itemData.variants && itemData.variants.length > 0);
-            const harga = typeof itemData.harga === 'number' ? itemData.harga : (itemData.variants ? Math.min(...itemData.variants.map(v => typeof v.harga === 'number' ? v.harga : 10000)) : 10000);
+            const harga = typeof itemData.harga === 'number' ? itemData.harga : (itemData.variants ? Math.min(...itemData.variants.map((v: any) => typeof v.harga === 'number' ? v.harga : 10000)) : 10000);
             
             const createdItem = await prisma.item.create({
               data: {
@@ -147,7 +147,7 @@ async function main() {
             });
 
             if (itemData.variants && itemData.variants.length > 0) {
-              const variantInserts = itemData.variants.map(v => ({
+              const variantInserts = itemData.variants.map((v: any) => ({
                 itemId: createdItem.id,
                 nama: String(v.nama),
                 harga: typeof v.harga === 'number' ? v.harga : 0
