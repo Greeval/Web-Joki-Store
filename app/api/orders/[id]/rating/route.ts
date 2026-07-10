@@ -2,8 +2,9 @@ import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 
 // POST — customer submit rating setelah order selesai
-export async function POST(req: NextRequest, { params }: { params: { id: string } }) {
-  const orderId = Number(params.id);
+export async function POST(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const orderId = Number(id);
   const body = await req.json();
   const { rating, ratingNote } = body;
 
@@ -46,9 +47,10 @@ export async function POST(req: NextRequest, { params }: { params: { id: string 
 }
 
 // GET — cek apakah order sudah dirating (untuk disable form)
-export async function GET(_req: NextRequest, { params }: { params: { id: string } }) {
+export async function GET(_req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const order = await prisma.order.findUnique({
-    where: { id: Number(params.id) },
+    where: { id: Number(id) },
     select: { rating: true, ratingNote: true, status: true },
   });
   if (!order) return NextResponse.json({ error: "Not found" }, { status: 404 });
