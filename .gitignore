@@ -47,3 +47,12 @@ next-env.d.ts
 dev.db
 *.db
 *.db-journal
+
+# debug/scratch scripts
+fix_*.py
+check_*.py
+find_*.py
+extract*.js
+extract*.css
+extract*.txt
+scripts/extractHtml.js
