@@ -1,0 +1,241 @@
+{
+  "categories": [
+    {
+      "nama": "Rawat akun / account maintenance",
+      "items": [
+        {
+          "nama": "Daily misi + power",
+          "tiers": [
+            {
+              "label": "Harian",
+              "harga": 2000,
+              "rawText": "2k"
+            },
+            {
+              "label": "Mingguan",
+              "harga": 14000,
+              "rawText": "14k"
+            },
+            {
+              "label": "Bulanan",
+              "harga": 50000,
+              "rawText": "50k"
+            },
+            {
+              "label": "1 patch",
+              "harga": 60000,
+              "rawText": "60k"
+            }
+          ]
+        },
+        {
+          "nama": "Plus weekly + SU dan DU",
+          "tiers": [
+            {
+              "label": "Mingguan",
+              "harga": 20000,
+              "rawText": "20k"
+            },
+            {
+              "label": "Bulanan",
+              "harga": 80000,
+              "rawText": "80k"
+            },
+            {
+              "label": "1 patch",
+              "harga": 100000,
+              "rawText": "100k"
+            }
+          ]
+        },
+        {
+          "nama": "Pro plus weekly (all event)",
+          "tiers": [
+            {
+              "label": "Bulanan",
+              "harga": 140000,
+              "rawText": "140k"
+            },
+            {
+              "label": "1 patch",
+              "harga": 160000,
+              "rawText": "160k"
+            }
+          ]
+        },
+        {
+          "nama": "Premium (all event + endgame)",
+          "tiers": [
+            {
+              "label": "Bulanan",
+              "harga": 200000,
+              "rawText": "200k"
+            },
+            {
+              "label": "1 patch",
+              "harga": 220000,
+              "rawText": "220k"
+            }
+          ]
+        }
+      ],
+      "deskripsi": "Premium mencakup Memory of Chaos, Apocalyptic Shadow dan Pure Fiction, tergantung kekuatan akun.\n"
+    },
+    {
+      "nama": "Spend trailblaze power (sesuai request)",
+      "items": [
+        {
+          "nama": "Daily 300 power",
+          "harga": 4000,
+          "rawText": "4k"
+        },
+        {
+          "nama": "Spend 2 fuel",
+          "harga": 1000,
+          "rawText": "1k"
+        }
+      ],
+      "deskripsi": "Daily power hanya bisa dipesan bersamaan dengan paket Spend Fuel. Kalau ambil beberapa kali sehari, wajib ambil paket Rawat Akun harian. Farming planar butuh set up Divergent Universe lebih dulu.\n"
+    },
+    {
+      "nama": "Misi trailblaze (per act)",
+      "items": [
+        {
+          "nama": "Herta Space and Jarillo-VI",
+          "harga": 25000,
+          "rawText": "25k per act"
+        },
+        {
+          "nama": "Xianzhuo",
+          "rawText": "act 1-2: 30k, act 3: 10k",
+          "isComplex": true
+        },
+        {
+          "nama": "Penacony",
+          "rawText": "act 1-2: 25k, act 3: 35k, act 4-5: 15k",
+          "isComplex": true
+        },
+        {
+          "nama": "Amphoreus",
+          "rawText": "act 1-2: 30k, act 3-5: 40k, act 6-8: 50k",
+          "isComplex": true
+        },
+        {
+          "nama": "Planarcadia",
+          "rawText": "act 1-3: 40k",
+          "isComplex": true
+        },
+        {
+          "nama": "Continu",
+          "variants": [
+            {
+              "nama": "Continu",
+              "harga": 15000,
+              "rawText": "15k per act"
+            },
+            {
+              "nama": "versi 2.4 ke atas",
+              "harga": 20000,
+              "rawText": "20k per act"
+            }
+          ],
+          "deskripsi": "(Terdapat 2 pilihan varian/kesulitan)"
+        },
+        {
+          "nama": "Misi bersama",
+          "harga": 10000,
+          "rawText": "10k per act"
+        },
+        {
+          "nama": "Misi petualangan",
+          "harga": 5000,
+          "rawText": "5k - 30k per misi"
+        }
+      ],
+      "deskripsi": "Bundle full misi trailblaze: Herta 40k, Jarillo 50k, Xianzhuo 70k, Penacony 115k, Amphoreus 290k.\nSyarat: karakter cukup kuat dan Trailblaze Level sesuai syarat misi.\n"
+    },
+    {
+      "nama": "Paket eksplorasi",
+      "items": [
+        {
+          "nama": "Herta Space, Jarillo and Luofu",
+          "harga": 800,
+          "rawText": "800/valuable"
+        },
+        {
+          "nama": "Penacony",
+          "harga": 1000,
+          "rawText": "1k/valuable"
+        },
+        {
+          "nama": "Amphoreus",
+          "variants": [
+            {
+              "nama": "Amphoreus",
+              "harga": 1200,
+              "rawText": "1,2k"
+            },
+            {
+              "nama": "Planarcadia",
+              "harga": "valuable",
+              "rawText": "valuable"
+            }
+          ],
+          "deskripsi": "(Terdapat 2 pilihan varian/kesulitan)"
+        },
+        {
+          "nama": "Jika chest di 1 area di bawah 5pcs dan belum punya Treasure Gadget",
+          "harga": 2000,
+          "rawText": "2k/valuable"
+        },
+        {
+          "nama": "Penacony origami bird",
+          "harga": 300,
+          "rawText": "300/pcs"
+        },
+        {
+          "nama": "Amphoreus nymph",
+          "harga": 400,
+          "rawText": "400/pcs"
+        }
+      ],
+      "deskripsi": "Misi eksplorasi tambahan: Cosmic Star and The Trees at Peace 12k/misi, Scorchsand Vacation 10k, Outsourcer 10k, Scorchsand Treasure Keeper 12k, Hanu's End 15k, I Once Was in Arcadia 12k, Chirping Secret Treasure 10k, Bartholos's Trouble 5k.\nHarga dihitung dari jumlah valuable (chest, trotter, trashcan, spiritthief) di kiri atas tiap area, sudah termasuk puzzle map dan battle chest (kecuali puzzle quest). Beberapa area terkunci sampai quest map tertentu dibuka.\n"
+    },
+    {
+      "nama": "Forgotten hall (memory of chaos)",
+      "items": [
+        {
+          "nama": "Jarillo-VI lantai 1-5 / 6-10 / 11-15",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 3000,
+              "rawText": "3k / 5k / 8k per lantai"
+            }
+          ]
+        },
+        {
+          "nama": "Jarillo-VI full MoC",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 85000,
+              "rawText": "85k"
+            }
+          ]
+        },
+        {
+          "nama": "Xianzhuo lantai 1-3 / 4-6",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 5000,
+              "rawText": "5k / 8k per lantai (data belum lengkap)"
+            }
+          ]
+        }
+      ],
+      "deskripsi": "Syarat: akun harus punya tim dan karakter mumpuni. Tidak bisa refund kalau akun tidak kuat clear full star.\n"
+    }
+  ]
+}

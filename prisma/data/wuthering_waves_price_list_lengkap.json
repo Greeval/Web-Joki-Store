@@ -1,0 +1,120 @@
+{
+  "categories": [
+    {
+      "nama": "Event permanen (mini-game)",
+      "items": [
+        {
+          "nama": "Cube, Cubic n Cubie",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": "Lv1-5: 10k, Lv6-10: 25k, Lv11-15: 30k, Lv16-21: 35k — Full: 100k",
+              "rawText": "Lv1-5: 10k, Lv6-10: 25k, Lv11-15: 30k, Lv16-21: 35k — Full: 100k"
+            }
+          ]
+        },
+        {
+          "nama": "Peak of Prestige",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": "Lv1-15: 30k, Lv16-18: 12k, Lv19-20: 8k — Full: 50k",
+              "rawText": "Lv1-15: 30k, Lv16-18: 12k, Lv19-20: 8k — Full: 50k"
+            }
+          ]
+        },
+        {
+          "nama": "Old Man and the Whale",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": "Full event: 110k",
+              "rawText": "Full event: 110k"
+            }
+          ]
+        },
+        {
+          "nama": "Tales of the Isles",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": "Isle Wandering 300k, Adventures in Water City 15k, The Envoy's Roll 20k, Amids Sea of Clouds 15k — Full: 350k",
+              "rawText": "Isle Wandering 300k, Adventures in Water City 15k, The Envoy's Roll 20k, Amids Sea of Clouds 15k — Full: 350k"
+            }
+          ]
+        },
+        {
+          "nama": "Your Summer Will Never Wither",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 3000,
+              "rawText": "3k/chapter — Full: 12k"
+            }
+          ]
+        },
+        {
+          "nama": "Dreaming Deep",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 10000,
+              "rawText": "10k/ending — Full: 100k"
+            }
+          ]
+        },
+        {
+          "nama": "Phantasma Dreamland",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 8000,
+              "rawText": "8k/stage — Full: 80k"
+            }
+          ]
+        },
+        {
+          "nama": "Stranger Things in Honami",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": "Full event: 90k",
+              "rawText": "Full event: 90k"
+            }
+          ]
+        },
+        {
+          "nama": "Tidal Defense Simulator",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": "Common 5k, Elite 6k, Overlord 7k, Deathtrap 12k per level — Full: 110k",
+              "rawText": "Common 5k, Elite 6k, Overlord 7k, Deathtrap 12k per level — Full: 110k"
+            }
+          ]
+        },
+        {
+          "nama": "Peak of Prestige (musim lanjutan)",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 4000,
+              "rawText": "4k/level — Full: 110k"
+            }
+          ]
+        }
+      ],
+      "deskripsi": "Peak of Prestige minggu berjalan ada tambahan biaya reset mingguan (2k/level minggu 1, 4k/level minggu 2-3) karena lawan berupa NPC/karakter in-game yang menyesuaikan progres.\n"
+    },
+    {
+      "nama": "Exploration quest (per judul)",
+      "items": [],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Side quest (per judul)",
+      "items": [],
+      "deskripsi": ""
+    }
+  ]
+}

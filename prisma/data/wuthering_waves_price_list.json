@@ -1,0 +1,394 @@
+{
+  "categories": [
+    {
+      "nama": "Rawat akun / account maintenance",
+      "items": [
+        {
+          "nama": "Basic daily (spend waveplate)",
+          "harga": 4000,
+          "rawText": "4k"
+        },
+        {
+          "nama": "Rebahan (daily 1 minggu)",
+          "harga": 20000,
+          "rawText": "20k"
+        },
+        {
+          "nama": "Mager (daily + fantasies gateway 1 bulan)",
+          "harga": 75000,
+          "rawText": "75k"
+        },
+        {
+          "nama": "Sultan mager (1 patch, all event + endgame)",
+          "harga": 175000,
+          "rawText": "175k"
+        }
+      ],
+      "deskripsi": "Termasuk: daily, broadcast, spend waveplate, weekly boss, fantasies, tower of adversary, whimpering wastes, clear new event (tergantung tier). Penggunaan waveplate bebas request dan bisa diganti kapanpun.\n"
+    },
+    {
+      "nama": "Open map, teleport, quest & tambahan",
+      "items": [
+        {
+          "nama": "Resonance beacon",
+          "harga": 500,
+          "rawText": "500"
+        },
+        {
+          "nama": "Resonance nexus",
+          "harga": 3000,
+          "rawText": "3k"
+        },
+        {
+          "nama": "Per area",
+          "harga": 8000,
+          "rawText": "8k"
+        },
+        {
+          "nama": "Main quest (per act)",
+          "harga": 15000,
+          "rawText": "15k"
+        },
+        {
+          "nama": "Companion quest",
+          "harga": 10000,
+          "rawText": "10k"
+        },
+        {
+          "nama": "Spending crystal solvent",
+          "harga": 1500,
+          "rawText": "1,5k/crystal"
+        },
+        {
+          "nama": "Echo challenge flight",
+          "harga": 5000,
+          "rawText": "5k/challenge"
+        }
+      ],
+      "deskripsi": "Syarat main quest: map area terkait harus sudah terbuka lebih dulu.\n"
+    },
+    {
+      "nama": "Endgame (Tower of Adversary, Whimpering Wastes, Tactical Hologram)",
+      "items": [
+        {
+          "nama": "Tower of Adversary",
+          "harga": 20000,
+          "rawText": "20k"
+        },
+        {
+          "nama": "Whimpering Wastes",
+          "harga": 20000,
+          "rawText": "20k"
+        },
+        {
+          "nama": "Tactical Hologram diff 1-2",
+          "variants": [
+            {
+              "nama": "Tactical Hologram diff 1-2",
+              "harga": 4000,
+              "rawText": "4k per diff"
+            },
+            {
+              "nama": "3-4",
+              "harga": 7000,
+              "rawText": "7k per diff"
+            },
+            {
+              "nama": "5-6",
+              "harga": 10000,
+              "rawText": "10k per diff"
+            }
+          ],
+          "deskripsi": "(Terdapat 3 pilihan varian/kesulitan)"
+        }
+      ],
+      "deskripsi": "Syarat: karakter wajib ter-build baik, dan customer memberi izin admin modifikasi build bila perlu untuk hasil maksimal. Refund hanya 50% kalau akun tidak kuat.\n"
+    },
+    {
+      "nama": "Eksplorasi per region (harga total per region, ada opsi per pcs)",
+      "items": [
+        {
+          "nama": "Dim Forest / Port City of Guixu / Desorock Highland",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 40000,
+              "rawText": "40k masing-masing"
+            }
+          ]
+        },
+        {
+          "nama": "Tiger Maws",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 20000,
+              "rawText": "20k"
+            }
+          ]
+        },
+        {
+          "nama": "Central Plain",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 50000,
+              "rawText": "50k"
+            }
+          ]
+        },
+        {
+          "nama": "Wuming Bay / Jinzhou",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 30000,
+              "rawText": "30k masing-masing"
+            }
+          ]
+        },
+        {
+          "nama": "Gorges of Spirit",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 25000,
+              "rawText": "25k"
+            }
+          ]
+        },
+        {
+          "nama": "Norfall Barrens / Whining Aix's Mire",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 35000,
+              "rawText": "35k / 40k"
+            }
+          ]
+        },
+        {
+          "nama": "Mt Firmament",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 50000,
+              "rawText": "50k"
+            }
+          ]
+        },
+        {
+          "nama": "All Huanglong (bundle)",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 400000,
+              "rawText": "400k"
+            }
+          ]
+        },
+        {
+          "nama": "Black Shores Archipelago",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 35000,
+              "rawText": "35k"
+            }
+          ]
+        },
+        {
+          "nama": "Tethys Deep",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 40000,
+              "rawText": "40k"
+            }
+          ]
+        },
+        {
+          "nama": "All Black Shores (bundle)",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 75000,
+              "rawText": "75k"
+            }
+          ]
+        },
+        {
+          "nama": "Ragunna City",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 5000,
+              "rawText": "5k"
+            }
+          ]
+        },
+        {
+          "nama": "Whisperwind Haven / Fagacaea Peninsula",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 25000,
+              "rawText": "25k masing-masing"
+            }
+          ]
+        },
+        {
+          "nama": "Nimbus Sanctum / Hallowed Reach / Penitent End / Thessaleo Fells / Riccioli Island",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 20000,
+              "rawText": "20k masing-masing"
+            }
+          ]
+        },
+        {
+          "nama": "Averardo Vault / Vault Underground",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 15000,
+              "rawText": "15k masing-masing"
+            }
+          ]
+        },
+        {
+          "nama": "Beohr Water",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 20000,
+              "rawText": "20k"
+            }
+          ]
+        },
+        {
+          "nama": "Avinoleum / Fabricatorium of the Deep",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 35000,
+              "rawText": "35k masing-masing"
+            }
+          ]
+        },
+        {
+          "nama": "Septimont",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 60000,
+              "rawText": "60k"
+            }
+          ]
+        },
+        {
+          "nama": "Sanguis Plaeteus",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 40000,
+              "rawText": "40k"
+            }
+          ]
+        },
+        {
+          "nama": "All Rinascita (bundle)",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 400000,
+              "rawText": "400k"
+            }
+          ]
+        },
+        {
+          "nama": "Starward Riseway / Frostland Transit Port / Tidelost Forest",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 15000,
+              "rawText": "15k masing-masing"
+            }
+          ]
+        },
+        {
+          "nama": "Mawburrow Desert",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 10000,
+              "rawText": "10k"
+            }
+          ]
+        },
+        {
+          "nama": "Startorch Academy / Giant's Gaze / Starblind Crashsite / Mount Gjallar / Upphaf Forest Ruins / Dimmr Deep",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 20000,
+              "rawText": "20k masing-masing"
+            }
+          ]
+        },
+        {
+          "nama": "Bjartr Woods",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 35000,
+              "rawText": "35k"
+            }
+          ]
+        },
+        {
+          "nama": "Stagnant Run / Etching Plains / Fangspire Chasm",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 30000,
+              "rawText": "30k masing-masing"
+            }
+          ]
+        },
+        {
+          "nama": "Rebirth Upland",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 25000,
+              "rawText": "25k"
+            }
+          ]
+        },
+        {
+          "nama": "Silent Crag / Sealed Fissure",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 25000,
+              "rawText": "25k / 20k"
+            }
+          ]
+        },
+        {
+          "nama": "Solisia Landing",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 30000,
+              "rawText": "30k"
+            }
+          ]
+        }
+      ],
+      "deskripsi": "Eksplorasi dihitung dari persentase progres per area (chest, puzzle, quest, casket): 50-95% dari harga dikali persentase, di atas 95% dihitung 2k per 1%.\n"
+    }
+  ]
+}

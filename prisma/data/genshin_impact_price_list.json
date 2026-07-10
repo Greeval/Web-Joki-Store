@@ -1,0 +1,1325 @@
+{
+  "categories": [
+    {
+      "nama": "Genshin Impact",
+      "items": [],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Rawat akun / account maintenance",
+      "items": [
+        {
+          "nama": "Daily komisi + resin",
+          "tiers": [
+            {
+              "label": "1 hari",
+              "harga": 4000,
+              "rawText": "4k"
+            },
+            {
+              "label": "1 minggu",
+              "harga": 20000,
+              "rawText": "20k"
+            },
+            {
+              "label": "1 bulan",
+              "harga": 70000,
+              "rawText": "70k"
+            },
+            {
+              "label": "1 patch",
+              "harga": 100000,
+              "rawText": "100k"
+            }
+          ]
+        },
+        {
+          "nama": "Plus weekly and world boss",
+          "tiers": [
+            {
+              "label": "1 minggu",
+              "harga": 25000,
+              "rawText": "25k"
+            },
+            {
+              "label": "1 bulan",
+              "harga": 90000,
+              "rawText": "90k"
+            },
+            {
+              "label": "1 patch",
+              "harga": 110000,
+              "rawText": "110k"
+            }
+          ]
+        },
+        {
+          "nama": "Pro plus all event",
+          "tiers": [
+            {
+              "label": "1 bulan",
+              "harga": 150000,
+              "rawText": "150k"
+            },
+            {
+              "label": "1 patch",
+              "harga": 180000,
+              "rawText": "180k"
+            }
+          ]
+        },
+        {
+          "nama": "Premium endgame",
+          "tiers": [
+            {
+              "label": "1 bulan",
+              "harga": 220000,
+              "rawText": "220k"
+            },
+            {
+              "label": "1 patch",
+              "harga": 250000,
+              "rawText": "250k"
+            }
+          ]
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Open map",
+      "items": [
+        {
+          "nama": "Per statue of seven",
+          "harga": 5000,
+          "rawText": "5k"
+        },
+        {
+          "nama": "Per teleport",
+          "harga": 500,
+          "rawText": "500"
+        },
+        {
+          "nama": "Per area",
+          "harga": 8000,
+          "rawText": "8k"
+        },
+        {
+          "nama": "Mondstadt",
+          "harga": 32000,
+          "rawText": "32k"
+        },
+        {
+          "nama": "Liyue",
+          "harga": 40000,
+          "rawText": "40k"
+        },
+        {
+          "nama": "Inazuma (4 pulau pertama)",
+          "harga": 32000,
+          "rawText": "32k"
+        },
+        {
+          "nama": "Sumeru (forest)",
+          "harga": 40000,
+          "rawText": "40k"
+        },
+        {
+          "nama": "Sumeru (desert)",
+          "harga": 24000,
+          "rawText": "24k"
+        },
+        {
+          "nama": "Sumeru (tornado)",
+          "harga": 10000,
+          "rawText": "10k"
+        },
+        {
+          "nama": "Sumeru (canyon)",
+          "harga": 16000,
+          "rawText": "16k"
+        },
+        {
+          "nama": "Fontaine (7 area)",
+          "harga": 56000,
+          "rawText": "56k"
+        },
+        {
+          "nama": "Natlan (8 area)",
+          "harga": 64000,
+          "rawText": "64k"
+        }
+      ],
+      "deskripsi": "Syarat: Mondstadt perlu clear Archon Quest Prolog Act 3. Inazuma penuh butuh Archon Quest Chap 2. Natlan area Easybreeze butuh story quest tertentu.\n"
+    },
+    {
+      "nama": "Endgame content",
+      "items": [
+        {
+          "nama": "Abyss minor",
+          "variants": [
+            {
+              "nama": "Lt 1-3",
+              "harga": 15000,
+              "rawText": "15k"
+            },
+            {
+              "nama": "4-6",
+              "harga": 21000,
+              "rawText": "21k"
+            },
+            {
+              "nama": "7-8",
+              "harga": 10000,
+              "rawText": "10k"
+            }
+          ],
+          "deskripsi": "(Terdapat 3 pilihan varian/kesulitan)"
+        },
+        {
+          "nama": "Abyss major",
+          "variants": [
+            {
+              "nama": "Lt 9-10",
+              "harga": 15000,
+              "rawText": "15k"
+            },
+            {
+              "nama": "11",
+              "harga": 15000,
+              "rawText": "15k"
+            },
+            {
+              "nama": "12",
+              "harga": 20000,
+              "rawText": "20k"
+            }
+          ],
+          "deskripsi": "(Terdapat 3 pilihan varian/kesulitan)"
+        },
+        {
+          "nama": "Imaginarium theater",
+          "variants": [
+            {
+              "nama": "per lt mob",
+              "harga": 5000,
+              "rawText": "5k"
+            },
+            {
+              "nama": "boss",
+              "harga": 10000,
+              "rawText": "10k"
+            }
+          ],
+          "deskripsi": "(Terdapat 2 pilihan varian/kesulitan)"
+        },
+        {
+          "nama": "Imaginarium theater full 12 lantai",
+          "harga": 85000,
+          "rawText": "85k"
+        },
+        {
+          "nama": "Envisaged echo",
+          "harga": 12000,
+          "rawText": "12k"
+        },
+        {
+          "nama": "Stygian onslaught",
+          "variants": [
+            {
+              "nama": "normal",
+              "harga": 6000,
+              "rawText": "6k"
+            },
+            {
+              "nama": "lanjutan",
+              "harga": 9000,
+              "rawText": "9k"
+            },
+            {
+              "nama": "sulit",
+              "harga": 15000,
+              "rawText": "15k"
+            },
+            {
+              "nama": "mengacam",
+              "harga": 20000,
+              "rawText": "20k"
+            },
+            {
+              "nama": "ekstra sulit",
+              "harga": 30000,
+              "rawText": "30k"
+            }
+          ],
+          "deskripsi": "(Terdapat 5 pilihan varian/kesulitan)"
+        },
+        {
+          "nama": "Local legend seri 1",
+          "variants": [
+            {
+              "nama": "Local legend seri 1",
+              "harga": 3000,
+              "rawText": "3k"
+            },
+            {
+              "nama": "seri 2-3",
+              "harga": 5000,
+              "rawText": "5k"
+            }
+          ],
+          "deskripsi": "(Terdapat 2 pilihan varian/kesulitan)"
+        }
+      ],
+      "deskripsi": "Abyss: karakter wajib ter-build baik, tidak refund kalau tidak kuat full star. Theater: butuh 10/14/18/22/28 karakter sesuai kesulitan. Stygian: primo hanya di normal-sulit, diff atas butuh 3 party terbuild, refund cuma 50% kalau tidak kuat setelah try hard.\n"
+    },
+    {
+      "nama": "Archon quest (per chapter)",
+      "items": [
+        {
+          "nama": "Prologue (Mondstadt)",
+          "tiers": [
+            {
+              "label": "Per act",
+              "harga": 25000,
+              "rawText": "25k / 30k"
+            },
+            {
+              "label": "Full chapter",
+              "harga": 80000,
+              "rawText": "80k"
+            }
+          ]
+        },
+        {
+          "nama": "Chap I (Liyue)",
+          "tiers": [
+            {
+              "label": "Per act",
+              "harga": 25000,
+              "rawText": "25k / 35k / 10k per part"
+            },
+            {
+              "label": "Full chapter",
+              "harga": 105000,
+              "rawText": "105k"
+            }
+          ]
+        },
+        {
+          "nama": "Chap II (Inazuma)",
+          "tiers": [
+            {
+              "label": "Per act",
+              "harga": 10300,
+              "rawText": "10k, 30k, 40k"
+            },
+            {
+              "label": "Full chapter",
+              "harga": 110000,
+              "rawText": "110k"
+            }
+          ]
+        },
+        {
+          "nama": "Chap III (Sumeru)",
+          "tiers": [
+            {
+              "label": "Per act",
+              "harga": 25300,
+              "rawText": "25k, 30k, 40k"
+            },
+            {
+              "label": "Full chapter",
+              "harga": 145000,
+              "rawText": "145k"
+            }
+          ]
+        },
+        {
+          "nama": "Chap IV (Fontaine)",
+          "tiers": [
+            {
+              "label": "Per act",
+              "harga": 25300,
+              "rawText": "25k, 30k, 35k, 40k"
+            },
+            {
+              "label": "Full chapter",
+              "harga": 150000,
+              "rawText": "150k"
+            }
+          ]
+        },
+        {
+          "nama": "Chap V (Natlan)",
+          "tiers": [
+            {
+              "label": "Per act",
+              "harga": 30500,
+              "rawText": "30k, 50k, 15k, 50k, 15k"
+            },
+            {
+              "label": "Full chapter",
+              "harga": 220000,
+              "rawText": "220k"
+            }
+          ]
+        },
+        {
+          "nama": "Chap Luna (Nod Krai)",
+          "tiers": [
+            {
+              "label": "Per act",
+              "harga": 50400,
+              "rawText": "50k, 40k"
+            }
+          ]
+        }
+      ],
+      "deskripsi": "Syarat archon quest: semua teleport map harus terbuka lebih dulu sebelum pengerjaan dimulai.\n"
+    },
+    {
+      "nama": "Archon Quest EX",
+      "items": [
+        {
+          "nama": "Jade Chamber (Chap Interlude - Act 1)",
+          "harga": 15000,
+          "rawText": "15k"
+        },
+        {
+          "nama": "Perilous Trail (Chap Interlude - Act 2)",
+          "harga": 20000,
+          "rawText": "20k"
+        },
+        {
+          "nama": "Wanderer (Chap Interlude - Act 3)",
+          "harga": 15000,
+          "rawText": "15k"
+        },
+        {
+          "nama": "Chasm (Chap II - Act 4)",
+          "harga": 10000,
+          "rawText": "10k"
+        },
+        {
+          "nama": "Caribert (Chap III - Act 6)",
+          "harga": 15000,
+          "rawText": "15k"
+        },
+        {
+          "nama": "Bedtime Story (Chap IV - Act 6)",
+          "harga": 10000,
+          "rawText": "10k"
+        },
+        {
+          "nama": "Paralogisme (Chap Interlude - Act 4)",
+          "harga": 20000,
+          "rawText": "20k"
+        },
+        {
+          "nama": "The Journey Home (Song of the Welkin Moon)",
+          "harga": 20000,
+          "rawText": "20k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Story quest & side quest",
+      "items": [
+        {
+          "nama": "Story Quest",
+          "harga": 12000,
+          "rawText": "12k"
+        },
+        {
+          "nama": "Hangout",
+          "harga": 12000,
+          "rawText": "12k"
+        },
+        {
+          "nama": "World Quest kecil / Mini WQ",
+          "harga": 5000,
+          "rawText": "5k~20k"
+        },
+        {
+          "nama": "World Quest besar / Big WQ",
+          "harga": 10000,
+          "rawText": "10k~variant price"
+        },
+        {
+          "nama": "Kisah Klan / Tribal Chronicles Act 1 & 2",
+          "harga": 5000,
+          "rawText": "5k per act"
+        },
+        {
+          "nama": "Kisah Klan / Tribal Chronicles Act 3",
+          "harga": 10000,
+          "rawText": "10k"
+        },
+        {
+          "nama": "Full Chapter archon quest (dari ss)",
+          "harga": 450000,
+          "rawText": "450k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Farming material",
+      "items": [
+        {
+          "nama": "Material Specialities",
+          "variants": [
+            {
+              "nama": "bunga",
+              "harga": 10000,
+              "rawText": "10k"
+            },
+            {
+              "nama": "binatang",
+              "harga": 60000,
+              "rawText": "60pcs - 25k"
+            },
+            {
+              "nama": "batu",
+              "harga": 165,
+              "rawText": "165pcs"
+            }
+          ],
+          "deskripsi": "(Terdapat 3 pilihan varian/kesulitan)"
+        },
+        {
+          "nama": "Crystalfly",
+          "variants": [
+            {
+              "nama": "Crystalfly",
+              "harga": 10000,
+              "rawText": "10k"
+            },
+            {
+              "nama": "Varian Ore",
+              "harga": 75,
+              "rawText": "75pcs"
+            }
+          ],
+          "deskripsi": "(Terdapat 2 pilihan varian/kesulitan)"
+        },
+        {
+          "nama": "Varian kepiting, kodok, kadal",
+          "harga": 5000,
+          "rawText": "5k/20pcs"
+        },
+        {
+          "nama": "Varian Kayu",
+          "harga": 10000,
+          "rawText": "10k/100pcs"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Farming drop monster",
+      "items": [
+        {
+          "nama": "Tier 1 (abu-abu / hijau)",
+          "harga": 150000,
+          "rawText": "150pcs per 10k"
+        },
+        {
+          "nama": "Tier 2 (hijau / biru)",
+          "harga": 50000,
+          "rawText": "50pcs per 10k"
+        },
+        {
+          "nama": "Tier 3 (biru / ungu)",
+          "harga": 18000,
+          "rawText": "18pcs per 10k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Paket senjata (The Catch / End of the Line / Fleuve Cendre)",
+      "items": [
+        {
+          "nama": "Weapon only",
+          "harga": 20000,
+          "rawText": "20k"
+        },
+        {
+          "nama": "Per-refine",
+          "harga": 10000,
+          "rawText": "10k"
+        },
+        {
+          "nama": "Weapon R5",
+          "harga": 55000,
+          "rawText": "55k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Ascend karakter",
+      "items": [
+        {
+          "nama": "Ascend 2 (Lvl40~50) - 2x run Boss",
+          "harga": 4000,
+          "rawText": "4k"
+        },
+        {
+          "nama": "Ascend 3 (Lvl50~60) - 4x run boss",
+          "harga": 12000,
+          "rawText": "12k"
+        },
+        {
+          "nama": "Ascend 4 (Lvl60~70) - 6x run boss",
+          "harga": 20000,
+          "rawText": "20k"
+        },
+        {
+          "nama": "Ascend 5 (Lvl70~80) - 8x run boss",
+          "harga": 25000,
+          "rawText": "25k"
+        },
+        {
+          "nama": "Ascend 6 (Lvl80~90) - 12x run boss",
+          "harga": 30000,
+          "rawText": "30k"
+        },
+        {
+          "nama": "Ascend 1~6 (full)",
+          "harga": 85000,
+          "rawText": "85k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Ascend senjata",
+      "items": [
+        {
+          "nama": "Ascend 2 (Lvl40~50) - 2x run domain",
+          "harga": 4000,
+          "rawText": "4k"
+        },
+        {
+          "nama": "Ascend 3 (Lvl50~60) - 4x run domain",
+          "harga": 8000,
+          "rawText": "8k"
+        },
+        {
+          "nama": "Ascend 4 (Lvl60~70) - 6x run domain",
+          "harga": 16000,
+          "rawText": "16k"
+        },
+        {
+          "nama": "Ascend 5 (Lvl70~80) - 8x run domain",
+          "harga": 20000,
+          "rawText": "20k"
+        },
+        {
+          "nama": "Ascend 6 (Lvl80~90) - 12x run domain",
+          "harga": 30000,
+          "rawText": "30k"
+        },
+        {
+          "nama": "Ascend 1~6 (full)",
+          "harga": 75000,
+          "rawText": "75k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Paket Resin",
+      "items": [
+        {
+          "nama": "1 Fragile Resin",
+          "harga": 1000,
+          "rawText": "1k"
+        },
+        {
+          "nama": "200 Ori Resin (spend untuk run domain/boss)",
+          "harga": 3000,
+          "rawText": "3k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Eksplorasi Mondstadt Region",
+      "items": [
+        {
+          "nama": "Mondstadt Region (per area)",
+          "harga": 40000,
+          "rawText": "40k per-area"
+        },
+        {
+          "nama": "Mondstadt Full 4 Area",
+          "harga": 140000,
+          "rawText": "140k"
+        },
+        {
+          "nama": "Progres area di atas 94%",
+          "harga": 2000,
+          "rawText": "2k per 1%"
+        },
+        {
+          "nama": "Anemoculus Full",
+          "harga": 25000,
+          "rawText": "25k"
+        },
+        {
+          "nama": "Anemoculus Per-pieces / 1 biji",
+          "harga": 2000,
+          "rawText": "2k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Eksplorasi Liyue Region",
+      "items": [
+        {
+          "nama": "Liyue - Bishui",
+          "harga": 70000,
+          "rawText": "70k"
+        },
+        {
+          "nama": "Liyue - Minlin",
+          "harga": 80000,
+          "rawText": "80k"
+        },
+        {
+          "nama": "Liyue - Sea, Qiongji, Lisha (per area)",
+          "harga": 40000,
+          "rawText": "40k per-area"
+        },
+        {
+          "nama": "Liyue Full 5 Area",
+          "harga": 270000,
+          "rawText": "270k"
+        },
+        {
+          "nama": "Bishui - Minlin progres di atas 94%",
+          "harga": 3000,
+          "rawText": "3k per 1%"
+        },
+        {
+          "nama": "Sea, Qiongji, Lisha progres di atas 94%",
+          "harga": 2000,
+          "rawText": "2k per 1%"
+        },
+        {
+          "nama": "Geoculus Full",
+          "harga": 50000,
+          "rawText": "50k"
+        },
+        {
+          "nama": "Geoculus Per-pieces / 1 biji",
+          "harga": 2000,
+          "rawText": "2k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Eksplorasi Inazuma Region",
+      "items": [
+        {
+          "nama": "Narukami, Kannazuka, Yashiori (Patch 2.0)",
+          "harga": 70000,
+          "rawText": "70k per pulau"
+        },
+        {
+          "nama": "Watatsumi & Seirai (2.1)",
+          "harga": 80000,
+          "rawText": "80k per pulau"
+        },
+        {
+          "nama": "Tsurumi Island (2.2)",
+          "harga": 90000,
+          "rawText": "90k"
+        },
+        {
+          "nama": "Inazuma Full Exploration",
+          "harga": 420000,
+          "rawText": "420k"
+        },
+        {
+          "nama": "Patch 2.0 progres di atas 94%",
+          "harga": 3000,
+          "rawText": "3k per 1%"
+        },
+        {
+          "nama": "Patch 2.1 progres di atas 94%",
+          "harga": 3.3,
+          "rawText": "3.3 per 1%"
+        },
+        {
+          "nama": "Patch 2.2 progres di atas 94%",
+          "harga": 3.5,
+          "rawText": "3.5 per 1%"
+        },
+        {
+          "nama": "Electroculus Full",
+          "harga": 60000,
+          "rawText": "60k"
+        },
+        {
+          "nama": "Electroculus Per-pieces / 1 Biji",
+          "harga": 2000,
+          "rawText": "2k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Eksplorasi Sumeru Region",
+      "items": [
+        {
+          "nama": "Sumeru Forest (per area)",
+          "harga": 70000,
+          "rawText": "70k per-area"
+        },
+        {
+          "nama": "Ardravi Valley",
+          "harga": null,
+          "rawText": "-"
+        },
+        {
+          "nama": "Ashavan Realm",
+          "harga": null,
+          "rawText": "-"
+        },
+        {
+          "nama": "Avidya Forest",
+          "harga": null,
+          "rawText": "-"
+        },
+        {
+          "nama": "Visudha Field",
+          "harga": null,
+          "rawText": "-"
+        },
+        {
+          "nama": "Lokapala Jungle",
+          "harga": null,
+          "rawText": "-"
+        },
+        {
+          "nama": "Lost Nursery",
+          "harga": 10000,
+          "rawText": "10k"
+        },
+        {
+          "nama": "Vanarana",
+          "harga": 10000,
+          "rawText": "10k"
+        },
+        {
+          "nama": "Eksplorasi Sumeru Forest Full",
+          "harga": 350000,
+          "rawText": "350k"
+        },
+        {
+          "nama": "5 Area Besar di atas 94%",
+          "harga": 4000,
+          "rawText": "4k per 1%"
+        },
+        {
+          "nama": "Sumeru Desert (per area)",
+          "harga": 75000,
+          "rawText": "75k per area"
+        },
+        {
+          "nama": "Hipostle Desert",
+          "harga": null,
+          "rawText": "-"
+        },
+        {
+          "nama": "Land of Lower Setekh",
+          "harga": null,
+          "rawText": "-"
+        },
+        {
+          "nama": "Land of Upper Setekh",
+          "harga": null,
+          "rawText": "-"
+        },
+        {
+          "nama": "Eksplorasi Sumeru Desert Full",
+          "harga": 200000,
+          "rawText": "200k"
+        },
+        {
+          "nama": "Progress di atas 94%",
+          "harga": 4000,
+          "rawText": "4k per 1%"
+        },
+        {
+          "nama": "Sumeru Tornado - Desert of Hadramaveth",
+          "harga": 110000,
+          "rawText": "110k"
+        },
+        {
+          "nama": "Tornado Progress di atas 94%",
+          "harga": 5000,
+          "rawText": "5k per 1%"
+        },
+        {
+          "nama": "Sumeru Canyon (per area)",
+          "harga": 80000,
+          "rawText": "80k per area"
+        },
+        {
+          "nama": "Gavireh Lajavard",
+          "harga": null,
+          "rawText": "-"
+        },
+        {
+          "nama": "Realm of Farakhkert",
+          "harga": null,
+          "rawText": "-"
+        },
+        {
+          "nama": "Eksplorasi Canyon Full",
+          "harga": 150000,
+          "rawText": "150k"
+        },
+        {
+          "nama": "Progress di atas 94%",
+          "harga": 4000,
+          "rawText": "4k per 1%"
+        },
+        {
+          "nama": "Dendroculus Sumeru Hutan",
+          "harga": 60000,
+          "rawText": "60k"
+        },
+        {
+          "nama": "Dendroculus Per-pieces / 1 biji",
+          "harga": 3000,
+          "rawText": "3k"
+        },
+        {
+          "nama": "Dendroculus Sumeru Desert",
+          "harga": 40000,
+          "rawText": "40k"
+        },
+        {
+          "nama": "Dendroculus Sumeru Tornado",
+          "harga": 25000,
+          "rawText": "25k"
+        },
+        {
+          "nama": "Dendroculus Sumeru Canyon",
+          "harga": 30000,
+          "rawText": "30k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Eksplorasi Fontaine Region",
+      "items": [
+        {
+          "nama": "Court of Fontain Region (Fontaine 4.0)",
+          "harga": 90000,
+          "rawText": "90k"
+        },
+        {
+          "nama": "Beryl Region",
+          "harga": 80000,
+          "rawText": "80k"
+        },
+        {
+          "nama": "Belleau Region",
+          "harga": 50000,
+          "rawText": "50k"
+        },
+        {
+          "nama": "Eksplorasi Full 4.0",
+          "harga": 220000,
+          "rawText": "220k"
+        },
+        {
+          "nama": "Fontaine Research Institute (Patch 4.1)",
+          "harga": 90000,
+          "rawText": "90k"
+        },
+        {
+          "nama": "Liffey Region (Patch 4.1)",
+          "harga": 50000,
+          "rawText": "50k"
+        },
+        {
+          "nama": "Eksplorasi Full 4.1",
+          "harga": 140000,
+          "rawText": "140k"
+        },
+        {
+          "nama": "Erinnyes Forest (Patch 4.2)",
+          "harga": 70000,
+          "rawText": "70k"
+        },
+        {
+          "nama": "Morte Region (Patch 4.2)",
+          "harga": 90000,
+          "rawText": "90k"
+        },
+        {
+          "nama": "Eksplorasi Full 4.2",
+          "harga": 160000,
+          "rawText": "160k"
+        },
+        {
+          "nama": "Nostoi Region (Patch 4.6)",
+          "harga": 30000,
+          "rawText": "30k"
+        },
+        {
+          "nama": "Sea of Bygon Eras (Patch 4.6)",
+          "harga": 90000,
+          "rawText": "90k"
+        },
+        {
+          "nama": "Eksplorasi Full 4.6",
+          "harga": 120000,
+          "rawText": "120k"
+        },
+        {
+          "nama": "Eksplorasi Full Fontaine",
+          "harga": 600000,
+          "rawText": "600k"
+        },
+        {
+          "nama": "Eksplorasi Area di atas 94%",
+          "harga": 4000,
+          "rawText": "4k per 1%"
+        },
+        {
+          "nama": "Hydroculus 4.0",
+          "harga": 50000,
+          "rawText": "50k"
+        },
+        {
+          "nama": "Hydroculus Per-pieces / 1 biji",
+          "harga": 3000,
+          "rawText": "3k"
+        },
+        {
+          "nama": "Hydroculus 4.1",
+          "harga": 30000,
+          "rawText": "30k"
+        },
+        {
+          "nama": "Hydroculus 4.2",
+          "harga": 40000,
+          "rawText": "40k"
+        },
+        {
+          "nama": "Hydroculus 4.6",
+          "harga": 30000,
+          "rawText": "30k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Eksplorasi Natlan Region",
+      "items": [
+        {
+          "nama": "Tequemecan Valley (Natlan 5.0)",
+          "harga": 75000,
+          "rawText": "75k"
+        },
+        {
+          "nama": "Basin of Unnumbered Flame (Natlan 5.0)",
+          "harga": 65000,
+          "rawText": "65k"
+        },
+        {
+          "nama": "Coatepec Mountain (Natlan 5.0)",
+          "harga": 75000,
+          "rawText": "75k"
+        },
+        {
+          "nama": "Toyac Springs (Natlan 5.0)",
+          "harga": 65000,
+          "rawText": "65k"
+        },
+        {
+          "nama": "Ochkanatlan (Natlan 5.2)",
+          "harga": 90000,
+          "rawText": "90k"
+        },
+        {
+          "nama": "Tezcatepetonco Range (Natlan 5.2)",
+          "harga": 80000,
+          "rawText": "80k"
+        },
+        {
+          "nama": "Quahuacan Cliff (Natlan 5.2)",
+          "harga": 65000,
+          "rawText": "65k"
+        },
+        {
+          "nama": "Atocpan (Natlan 5.5)",
+          "harga": 90000,
+          "rawText": "90k"
+        },
+        {
+          "nama": "Sacred Montain (Natlan 5.5)",
+          "harga": 80000,
+          "rawText": "80k"
+        },
+        {
+          "nama": "Easybreeze Holiday Resort (Natlan 5.8)",
+          "harga": 100000,
+          "rawText": "100k"
+        },
+        {
+          "nama": "Eksplorasi Natlan Full",
+          "harga": 730000,
+          "rawText": "730k"
+        },
+        {
+          "nama": "Progress 94%",
+          "harga": 4000,
+          "rawText": "4k per 1%"
+        },
+        {
+          "nama": "Pyroculus 5.0",
+          "harga": 50000,
+          "rawText": "50k"
+        },
+        {
+          "nama": "Pyroculus Per-pieces / 1 biji",
+          "harga": 3000,
+          "rawText": "3k"
+        },
+        {
+          "nama": "Pyroculus 5.2",
+          "harga": 50000,
+          "rawText": "50k"
+        },
+        {
+          "nama": "Pyroculus 5.5",
+          "harga": 40000,
+          "rawText": "40k"
+        },
+        {
+          "nama": "Pyroculus 5.8",
+          "harga": 35000,
+          "rawText": "35k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Eksplorasi Nod Krai Region",
+      "items": [
+        {
+          "nama": "Hiisi Island (Nod Krai Luna I)",
+          "harga": 70000,
+          "rawText": "70k"
+        },
+        {
+          "nama": "Paha Isle (Nod Krai Luna I)",
+          "harga": 80000,
+          "rawText": "80k"
+        },
+        {
+          "nama": "Lempo Isle (Nod Krai Luna I)",
+          "harga": 100000,
+          "rawText": "100k"
+        },
+        {
+          "nama": "Voidsea Outlook (Nod Krai Luna IV)",
+          "harga": 70000,
+          "rawText": "70k"
+        },
+        {
+          "nama": "Wavechaser Plain (Nod Krai Luna IV)",
+          "harga": 70000,
+          "rawText": "70k"
+        },
+        {
+          "nama": "Ashveil Peak (Nod Krai Luna IV)",
+          "harga": 60000,
+          "rawText": "60k"
+        },
+        {
+          "nama": "Eksplorasi Nod Krai Full",
+          "harga": 410000,
+          "rawText": "410k"
+        },
+        {
+          "nama": "Progress 94%",
+          "harga": 4000,
+          "rawText": "4k per 1%"
+        },
+        {
+          "nama": "Lunoculus Luna I",
+          "harga": 50000,
+          "rawText": "50k"
+        },
+        {
+          "nama": "Lunoculus Luna I Per-pieces / 1 biji",
+          "harga": 1000,
+          "rawText": "1k"
+        },
+        {
+          "nama": "Lunoculus Luna IV",
+          "harga": 30000,
+          "rawText": "30k"
+        },
+        {
+          "nama": "Lunoculus Luna IV Per-pieces / 1 biji",
+          "harga": 1000,
+          "rawText": "1k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Sub region Dragonspine",
+      "items": [
+        {
+          "nama": "Eksplorasi only",
+          "harga": 80000,
+          "rawText": "80k"
+        },
+        {
+          "nama": "Crimson Agate (lvl8)",
+          "harga": 30000,
+          "rawText": "30k"
+        },
+        {
+          "nama": "Eksplorasi + Crimson Agate (lvl8)",
+          "harga": 95000,
+          "rawText": "95k"
+        },
+        {
+          "nama": "Crimson Wish (10pcs per minggu)",
+          "harga": 5000,
+          "rawText": "5k per minggu"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Sub region Enkanomiya",
+      "items": [
+        {
+          "nama": "Key Sigil-Key Lock (All-related Quest)",
+          "harga": 80000,
+          "rawText": "80k"
+        },
+        {
+          "nama": "Eksplorasi Only",
+          "harga": 100000,
+          "rawText": "100k"
+        },
+        {
+          "nama": "Eksplorasi (+All Sigil)",
+          "harga": 180000,
+          "rawText": "180k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Sub region Chasm",
+      "items": [
+        {
+          "nama": "Eksplorasi Chasm Atas",
+          "harga": 40000,
+          "rawText": "40k"
+        },
+        {
+          "nama": "Eksplorasi Chasm Bawah",
+          "harga": 120000,
+          "rawText": "120k"
+        },
+        {
+          "nama": "Lumenstone",
+          "harga": 30000,
+          "rawText": "30k"
+        },
+        {
+          "nama": "Eksplorasi Chasm Bawah + Lumenstone",
+          "harga": 150000,
+          "rawText": "150k"
+        },
+        {
+          "nama": "Full Eksplorasi Atas + Bawah",
+          "harga": 180000,
+          "rawText": "180k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Sub region Chenyu Vale",
+      "items": [
+        {
+          "nama": "Open Map 2 Area Chenyu Vale",
+          "harga": 15000,
+          "rawText": "15k"
+        },
+        {
+          "nama": "Spirit Carp only",
+          "harga": 20000,
+          "rawText": "20k"
+        },
+        {
+          "nama": "Eksplorasi Chenyun Vale : Upper",
+          "harga": 80000,
+          "rawText": "80k"
+        },
+        {
+          "nama": "Eksplorasi Chenyun Vale : Southern",
+          "harga": 65000,
+          "rawText": "65k"
+        },
+        {
+          "nama": "Eksplorasi Mt. Laixin",
+          "harga": 15000,
+          "rawText": "15k"
+        },
+        {
+          "nama": "Eksplorasi Full (3 area) + Spirit Carp",
+          "harga": 160000,
+          "rawText": "160k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Sub region Domman Port",
+      "items": [
+        {
+          "nama": "Eksplorasi Windrest Peak",
+          "harga": 50000,
+          "rawText": "50k"
+        },
+        {
+          "nama": "Temple of Space (+mnemonic cluster)",
+          "harga": 80000,
+          "rawText": "80k"
+        },
+        {
+          "nama": "Paket Eksplorasi Luna VI",
+          "harga": 200000,
+          "rawText": "200k"
+        }
+      ],
+      "deskripsi": ""
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id           Int      @id @default(autoincrement())
+  nama         String
+  email        String   @unique
+  phone        String?
+  passwordHash String
+  role         String   // "customer", "admin", "joki"
+  createdAt    DateTime @default(now())
+  orders       Order[]
+}
+
+model Game {
+  id            Int        @id @default(autoincrement())
+  nama          String
+  slug          String     @unique
+  coverImageUrl String?
+  isPopuler     Boolean    @default(false)
+  categories    Category[]
+  characters    Character[]
+  materials     Material[]
+}
+
+model Category {
+  id           Int            @id @default(autoincrement())
+  gameId       Int
+  game         Game           @relation(fields: [gameId], references: [id], onDelete: Cascade)
+  nama         String         // "Rawat Akun", "Farming Material", "Build Character", dll.
+  displayType  String         // "tab", "accordion"
+  urutan       Int            @default(0)
+  items        Item[]
+  discountRules DiscountRule[]
+}
+
+model Item {
+  id               Int                 @id @default(autoincrement())
+  categoryId       Int
+  category         Category            @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  nama             String
+  tipe             String              // "satuan", "paket"
+  satuanLabel      String?             // "pcs", "act", "part", "persen", dll.
+  hargaBatch       Float?              // nullable, jika tipe = satuan
+  jumlahBatch      Int?                // nullable, jika tipe = satuan
+  hargaPaket       Float?              // nullable, jika tipe = paket
+  refundPolicy     String              @default("no_refund") // "no_refund", "partial_50", "full_refund"
+  deskripsi        String?
+  isBundleKategori Boolean             @default(false)
+  
+  tiers            ItemTier[]
+  variants         ItemVariant[]
+  prerequisites    ItemPrerequisite[]
+  requirements     ItemRequirement[]   @relation("ItemRequirements")
+  requiredBy       ItemRequirement[]   @relation("ItemRequiredBy")
+  orderItems       OrderItem[]
+}
+
+model ItemVariant {
+  id     Int    @id @default(autoincrement())
+  itemId Int
+  item   Item   @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  nama   String
+  harga  Float
+}
+
+model ItemTier {
+  id     Int   @id @default(autoincrement())
+  itemId Int
+  item   Item  @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  minQty Int
+  maxQty Int
+  harga  Float
+}
+
+model ItemPrerequisite {
+  id              Int     @id @default(autoincrement())
+  itemId          Int
+  item            Item    @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  deskripsiSyarat String
+  wajibDicentang  Boolean @default(true)
+}
+
+model ItemRequirement {
+  id             Int  @id @default(autoincrement())
+  itemId         Int
+  item           Item @relation("ItemRequirements", fields: [itemId], references: [id], onDelete: Cascade)
+  requiredItemId Int
+  requiredItem   Item @relation("ItemRequiredBy", fields: [requiredItemId], references: [id], onDelete: Cascade)
+  requiredMinQty Int  @default(1)
+}
+
+model Character {
+  id                 Int                 @id @default(autoincrement())
+  gameId             Int
+  game               Game                @relation(fields: [gameId], references: [id], onDelete: Cascade)
+  nama               String
+  characterMaterials CharacterMaterial[]
+}
+
+model Material {
+  id                 Int                 @id @default(autoincrement())
+  gameId             Int
+  game               Game                @relation(fields: [gameId], references: [id], onDelete: Cascade)
+  nama               String
+  imageUrl           String?
+  characterMaterials CharacterMaterial[]
+}
+
+model CharacterMaterial {
+  id                Int       @id @default(autoincrement())
+  characterId       Int
+  character         Character @relation(fields: [characterId], references: [id], onDelete: Cascade)
+  materialId        Int
+  material          Material  @relation(fields: [materialId], references: [id], onDelete: Cascade)
+  jumlahDibutuhkan  Int
+  tipe              String    // "ascend", "talent"
+}
+
+model DiscountRule {
+  id               Int      @id @default(autoincrement())
+  nama             String
+  triggerCondition String   // JSON rule atau string deskriptif
+  discountPercent  Float
+  appliesToCategoryId Int
+  category         Category @relation(fields: [appliesToCategoryId], references: [id], onDelete: Cascade)
+}
+
+model Order {
+  id          Int                 @id @default(autoincrement())
+  userId      Int
+  user        User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  status      String              @default("pending_payment")
+  createdAt   DateTime            @default(now())
+  completedAt DateTime?
+  rating      Int?                // 1–5 bintang dari customer
+  ratingNote  String?             // komentar singkat dari customer
+  items       OrderItem[]
+  credentials AccountCredential?
+  payments    Payment[]
+  testimoni   Testimoni?
+}
+
+model OrderItem {
+  id         Int          @id @default(autoincrement())
+  orderId    Int
+  order      Order        @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  itemId     Int
+  item       Item         @relation(fields: [itemId], references: [id])
+  jumlah     Int          @default(1) // qty input jika tipe = satuan
+  hargaFinal Float
+  catatan    String?
+  negoThread NegoThread?
+}
+
+model AccountCredential {
+  id                Int      @id @default(autoincrement())
+  orderId           Int      @unique
+  order             Order    @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  encryptedUsername String
+  encryptedPassword String
+  catatanVerifikasi String?
+  submittedAt       DateTime @default(now())
+  purgeAt           DateTime // jadwal hapus permanen
+}
+
+model NegoThread {
+  id              Int           @id @default(autoincrement())
+  orderItemId     Int           @unique
+  orderItem       OrderItem     @relation(fields: [orderItemId], references: [id], onDelete: Cascade)
+  status          String        @default("pending") // "pending", "counter", "deal", "rejected"
+  hargaDisepakati Float?
+  messages        NegoMessage[]
+}
+
+model NegoMessage {
+  id            Int        @id @default(autoincrement())
+  threadId      Int
+  thread        NegoThread @relation(fields: [threadId], references: [id], onDelete: Cascade)
+  senderRole    String     // "customer", "admin"
+  pesan         String
+  hargaDiajukan Float?
+  createdAt     DateTime   @default(now())
+}
+
+model Payment {
+  id         Int       @id @default(autoincrement())
+  orderId    Int
+  order      Order     @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  gatewayRef String?   // referensi ID dari Midtrans/Tripay
+  jumlah     Float
+  status     String    @default("pending") // "pending", "paid", "failed", "expired"
+  paidAt     DateTime?
+}
+
+model PromoBanner {
+  id        Int      @id @default(autoincrement())
+  title     String
+  subtitle  String?
+  badge     String?
+  imageUrl  String
+  linkUrl   String?
+  urutan    Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+}
+
+model Testimoni {
+  id        Int      @id @default(autoincrement())
+  nama      String                   // nama customer / inisial
+  avatarUrl String?                  // foto profil (opsional)
+  game      String?                  // game yang di-joki
+  rating    Int      @default(5)     // 1–5 bintang
+  pesan     String                   // isi testimoni
+  isActive  Boolean  @default(true)  // tampil di website atau tidak
+  orderId   Int?     @unique         // link ke order nyata (opsional)
+  order     Order?   @relation(fields: [orderId], references: [id], onDelete: SetNull)
+  createdAt DateTime @default(now())
+}
+
+// Konfigurasi situs yang bisa diedit admin
+model SiteConfig {
+  key   String @id   // "orderBaseCount", dll.
+  value String
+}
+

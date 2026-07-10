@@ -1,0 +1,87 @@
+{
+  "categories": [
+    {
+      "nama": "Forgotten hall — Xianzhuo",
+      "items": [
+        {
+          "nama": "Lantai 1-3",
+          "harga": 5000,
+          "rawText": "5k/lantai"
+        },
+        {
+          "nama": "Lantai 4-6",
+          "harga": 8000,
+          "rawText": "8k/lantai"
+        },
+        {
+          "nama": "Full Forgotten Hall",
+          "harga": 30000,
+          "rawText": "30k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Forgotten hall — Memory of Chaos (MOC)",
+      "items": [
+        {
+          "nama": "Lantai 1-3",
+          "harga": 2000,
+          "rawText": "2k/lantai"
+        },
+        {
+          "nama": "Lantai 4-6",
+          "harga": 5000,
+          "rawText": "5k/lantai"
+        },
+        {
+          "nama": "Lantai 7-9",
+          "harga": 7000,
+          "rawText": "7k/lantai"
+        },
+        {
+          "nama": "Lantai 10-11",
+          "harga": 10000,
+          "rawText": "10k/lantai"
+        },
+        {
+          "nama": "Lantai 12",
+          "harga": 15000,
+          "rawText": "15k/lantai"
+        },
+        {
+          "nama": "Full MOC (lantai 1-12)",
+          "harga": 75000,
+          "rawText": "75k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Pure fiction and apocalyptic shadow",
+      "items": [
+        {
+          "nama": "Stage 01",
+          "rawText": "3k, atau 1k/star",
+          "isComplex": true
+        },
+        {
+          "nama": "Stage 02",
+          "rawText": "6k, atau 2k/star",
+          "isComplex": true
+        },
+        {
+          "nama": "Stage 03",
+          "rawText": "8k, atau 4k/star",
+          "isComplex": true
+        },
+        {
+          "nama": "Stage 04",
+          "rawText": "12k, atau 5k/star",
+          "isComplex": true
+        }
+      ],
+      "deskripsi": "Pilihan harga flat per stage atau per bintang (star) tergantung target hasil yang diminta customer.\n"
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "categories": [
+    {
+      "nama": "Rawat akun / account maintenance",
+      "items": [
+        {
+          "nama": "Daily battery + weekly ridu",
+          "tiers": [
+            {
+              "label": "Harian",
+              "harga": 4000,
+              "rawText": "4k"
+            },
+            {
+              "label": "Mingguan",
+              "harga": 30000,
+              "rawText": "30k"
+            },
+            {
+              "label": "Bulanan",
+              "harga": 80000,
+              "rawText": "80k"
+            }
+          ]
+        },
+        {
+          "nama": "Weekly ridu, perburuan and hollow zero",
+          "tiers": [
+            {
+              "label": "Mingguan",
+              "harga": 30000,
+              "rawText": "30k"
+            },
+            {
+              "label": "Bulanan",
+              "harga": 100000,
+              "rawText": "100k"
+            },
+            {
+              "label": "1 patch",
+              "harga": 120000,
+              "rawText": "120k"
+            }
+          ]
+        },
+        {
+          "nama": "Premium (weekly + all event)",
+          "tiers": [
+            {
+              "label": "1 patch",
+              "harga": 200000,
+              "rawText": "200k"
+            }
+          ]
+        },
+        {
+          "nama": "Premium pro (weekly + all event + endgame)",
+          "tiers": [
+            {
+              "label": "1 patch",
+              "harga": 250000,
+              "rawText": "250k"
+            }
+          ]
+        }
+      ],
+      "deskripsi": "Endgame konten dikerjakan sesuai kekuatan build akun. Battery dan perburuan bisa diganti sesuai request kapanpun.\n"
+    },
+    {
+      "nama": "Farming relationship & battery (selama rawat akun, 3 karakter)",
+      "items": [
+        {
+          "nama": "Sehari",
+          "variants": [
+            {
+              "nama": "Sehari",
+              "harga": 1000,
+              "rawText": "1k"
+            },
+            {
+              "nama": "seminggu",
+              "harga": 5000,
+              "rawText": "5k"
+            },
+            {
+              "nama": "sebulan",
+              "harga": 18000,
+              "rawText": "18k"
+            },
+            {
+              "nama": "1 patch",
+              "harga": 25000,
+              "rawText": "25k"
+            }
+          ],
+          "deskripsi": "(Terdapat 4 pilihan varian/kesulitan)"
+        },
+        {
+          "nama": "1 ether battery",
+          "harga": 1000,
+          "rawText": "1k"
+        },
+        {
+          "nama": "240 battery",
+          "harga": 3000,
+          "rawText": "3k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Main story (per chapter, harga chapter / per kontrak)",
+      "items": [
+        {
+          "nama": "Prolog",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 15000,
+              "rawText": "15k / 6k per kontrak"
+            }
+          ]
+        },
+        {
+          "nama": "Chapter 1",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 40000,
+              "rawText": "40k / 8k per kontrak"
+            }
+          ]
+        },
+        {
+          "nama": "Chapter 2",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 40000,
+              "rawText": "40k / 8k per kontrak"
+            }
+          ]
+        },
+        {
+          "nama": "Chapter 2 interlude",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 15000,
+              "rawText": "15k / 9k per kontrak"
+            }
+          ]
+        },
+        {
+          "nama": "Chapter 3",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 40000,
+              "rawText": "40k / 10k per kontrak"
+            }
+          ]
+        },
+        {
+          "nama": "Chapter 4",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 60000,
+              "rawText": "60k / 15k per kontrak"
+            }
+          ]
+        },
+        {
+          "nama": "Chapter 5",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 80000,
+              "rawText": "80k / 20k per kontrak"
+            }
+          ]
+        },
+        {
+          "nama": "S1 EP 1 / EP 2",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 40000,
+              "rawText": "40k / 10k per kontrak (masing-masing)"
+            }
+          ]
+        },
+        {
+          "nama": "Chapter 1-2 (per chapter)",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 60000,
+              "rawText": "60k / 15k per kontrak"
+            }
+          ]
+        },
+        {
+          "nama": "Chapter 3-4 (per chapter)",
+          "tiers": [
+            {
+              "label": "",
+              "harga": 75000,
+              "rawText": "75k / 15k per kontrak"
+            }
+          ]
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Sampingan & tipe quest",
+      "items": [
+        {
+          "nama": "Agent archives",
+          "harga": 12000,
+          "rawText": "12k"
+        },
+        {
+          "nama": "Story agent event",
+          "harga": 20000,
+          "rawText": "20k"
+        },
+        {
+          "nama": "Investigasi",
+          "harga": 10000,
+          "rawText": "10k"
+        },
+        {
+          "nama": "Promosi / spesial",
+          "harga": 5000,
+          "rawText": "5k - 10k"
+        },
+        {
+          "nama": "Eksplor",
+          "harga": 8000,
+          "rawText": "8k - 20k"
+        },
+        {
+          "nama": "Combat",
+          "harga": 5000,
+          "rawText": "5k - 20k"
+        }
+      ],
+      "deskripsi": ""
+    },
+    {
+      "nama": "Shiyu defense",
+      "items": [
+        {
+          "nama": "Critical node diff 1-3",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 10000,
+              "rawText": "10k"
+            }
+          ]
+        },
+        {
+          "nama": "Critical node diff 4",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 12000,
+              "rawText": "12k"
+            }
+          ]
+        },
+        {
+          "nama": "Critical node diff 5",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 10000,
+              "rawText": "10k per side"
+            }
+          ]
+        },
+        {
+          "nama": "Stable node diff 1-5",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 3000,
+              "rawText": "3k"
+            }
+          ]
+        },
+        {
+          "nama": "Stable node diff 6-10",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 6000,
+              "rawText": "6k"
+            }
+          ]
+        },
+        {
+          "nama": "Disputer node diff 1-4",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 4000,
+              "rawText": "4k"
+            }
+          ]
+        },
+        {
+          "nama": "Disputer node diff 5-8",
+          "tiers": [
+            {
+              "label": "Harga",
+              "harga": 7000,
+              "rawText": "7k"
+            }
+          ]
+        }
+      ],
+      "deskripsi": "Karakter wajib ter-build baik untuk hasil maksimal, dan customer memberi izin admin memodifikasi build karakter bila perlu. Tidak refund kalau akun tidak kuat full star. Khusus Diff 5 wajib punya 3 tim yang sudah jadi.\n"
+    },
+    {
+      "nama": "Deadly assault",
+      "items": [
+        {
+          "nama": "1 run x 1 boss",
+          "harga": 10000,
+          "rawText": "10k"
+        },
+        {
+          "nama": "Full 3 boss",
+          "harga": 25000,
+          "rawText": "25k"
+        }
+      ],
+      "deskripsi": "Syarat: akun harus punya 3 tim yang sudah jadi.\n"
+    }
+  ]
+}
