@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Web Joki Store
+
+A pricelist and storefront website for various "joki" (boosting/service-for-hire) services, built with Next.js, TypeScript, and Prisma.
+
+Live demo: [web-joki-store.vercel.app](https://web-joki-store.vercel.app)
+
+---
+
+## About
+
+**Web Joki Store** is a platform for displaying and managing a pricelist of various joki services in one place. Users can browse the service catalog, pricing, and details for each offering in a clean, responsive interface.
+
+## Features
+
+- Catalog / pricelist for multiple types of joki services
+- Clean, easy-to-navigate service listings
+- Fast rendering with Next.js App Router
+- Data management using Prisma ORM
+- Modern UI with Tailwind CSS and Lucide Icons
+- Lightweight state management with Zustand
+- Responsive on both desktop and mobile
+
+## Tech Stack
+
+| Category | Technology |
+|---|---|
+| Framework | [Next.js](https://nextjs.org) 16 (App Router) |
+| Language | TypeScript |
+| UI Library | React 19 |
+| Styling | Tailwind CSS |
+| Database ORM | Prisma |
+| State Management | Zustand |
+| Icons | Lucide React |
+| Deployment | Vercel |
+
+## Project Structure
+
+```
+Web-Joki-Store/
+├── app/            # Routing & pages (Next.js App Router)
+├── components/     # Reusable UI components
+├── lib/            # Utility functions & helpers
+├── prisma/         # Database schema & migrations
+├── public/         # Static assets (images, icons, etc.)
+├── scripts/        # Supporting scripts (seeding, etc.)
+└── ...
+```
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18 or newer
+- Package manager: npm / yarn / pnpm / bun
+- A database supported by Prisma (e.g. PostgreSQL, MySQL, or SQLite)
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Greeval/Web-Joki-Store.git
+cd Web-Joki-Store
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+### 3. Configure environment variables
+
+Create a `.env` file in the project root and set it up according to your database:
+
+```env
+DATABASE_URL="postgresql://user:password@localhost:5432/joki_store"
+```
+
+### 4. Set up the database (Prisma)
+
+```bash
+npx prisma generate
+npx prisma migrate dev
+```
+
+### 5. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command | Description |
+|---|---|
+| `npm run dev` | Runs the development server |
+| `npm run build` | Builds the project for production |
+| `npm run start` | Runs the production build |
+| `npm run lint` | Runs the linter (ESLint) |
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+This project is deployed using [Vercel](https://vercel.com). To deploy your own version:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Push the repository to GitHub
+2. Import the project into [Vercel](https://vercel.com/new)
+3. Add environment variables (e.g. `DATABASE_URL`) in the Vercel dashboard
+4. Deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Contributions, issues, and feature requests are welcome. Feel free to open an [issue](https://github.com/Greeval/Web-Joki-Store/issues) or submit a pull request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork this repository
+2. Create a new branch (`git checkout -b new-feature`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin new-feature`)
+5. Open a Pull Request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+No license has been specified yet. Add a `LICENSE` file if you want to make this project officially open source.
+
+## Contact
+
+Created by [Greeval](https://github.com/Greeval) — feel free to open an issue in this repo for questions or suggestions.
